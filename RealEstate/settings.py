@@ -168,4 +168,6 @@ CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
     "https://albdahaqar.com",
     "https://server.albdahaqar.com",
+    "http://albdahaqar.com",
+    "http://server.albdahaqar.com", 
 ]
