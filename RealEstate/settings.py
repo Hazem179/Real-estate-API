@@ -164,3 +164,8 @@ AUTH_USER_MODEL = "accounts.User"
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 SECURE_CROSS_ORIGIN_OPENER_POLICY = None
+CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOWED_ORIGINS = [
+    "https://albdahaqar.com",
+    "https://server.albdahaqar.com",
+]
