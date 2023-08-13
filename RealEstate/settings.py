@@ -171,3 +171,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://albdahaqar.com",
     "http://server.albdahaqar.com", 
 ]
+CSRF_TRUSTED_ORIGINS = [
+    "https://albdahaqar.com",
+    "https://server.albdahaqar.com",
+]
