@@ -69,6 +69,12 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
+ 'DEFAULT_PARSER_CLASSES': [
+        'rest_framework.parsers.JSONParser',  # يتم تحليل JSON
+        'rest_framework.parsers.FormParser',  # يتم تحليل بيانات النموذج
+        'rest_framework.parsers.MultiPartParser',  # يتم تحليل ملفات متعددة الأجزاء
+    ],
+    'DEFAULT_CONTENT_LENGTH': 1024 * 1024 * 50, 
 }
 
 SIMPLE_JWT = {
