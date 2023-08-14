@@ -69,6 +69,16 @@ REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
+# --------------------------------------------------------------------------------
+    'DEFAULT_METADATA_CLASS': 'rest_framework.metadata.SimpleMetadata',
+    'DEFAULT_TIME_ZONE': 'UTC',
+    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.AcceptHeaderVersioning',
+    'DEFAULT_VERSION': '1.0',
+    'TIMEOUTS': {
+        'DEFAULT': 10000,  # زيادة مهلة الاتصال إلى 30 ثانية
+    },
+# --------------------------------------------------------------------------------
+
 }
 
 SIMPLE_JWT = {
