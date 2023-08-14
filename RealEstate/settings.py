@@ -176,3 +176,6 @@ CSRF_TRUSTED_ORIGINS = [
     "https://albdahaqar.com",
     "https://server.albdahaqar.com",
 ]
+
+DATA_UPLOAD_MAX_MEMORY_SIZE = 39321600
+FILE_UPLOAD_MAX_MEMORY_SIZE = 39321600
