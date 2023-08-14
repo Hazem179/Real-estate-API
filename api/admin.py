@@ -1,9 +1,9 @@
 from django.contrib import admin
-from .models import ContactForm,JoinUsForm, Building,BuildingImage
+from .models import ContactForm,JoinUsForm, Building,BuildingImage, ContractRequestForm
 from django.utils.html import format_html
 # Register your models here.
 
-
+admin.site.register(ContractRequestForm)
 
 
 class ContactFormAdmin(admin.ModelAdmin):
