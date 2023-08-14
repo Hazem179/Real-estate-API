@@ -75,7 +75,7 @@ REST_FRAMEWORK = {
     'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.AcceptHeaderVersioning',
     'DEFAULT_VERSION': '1.0',
     'TIMEOUTS': {
-        'DEFAULT': 10000,  # زيادة مهلة الاتصال إلى 30 ثانية
+        'DEFAULT': 30,  # زيادة مهلة الاتصال إلى 30 ثانية
     },
 # --------------------------------------------------------------------------------
 
